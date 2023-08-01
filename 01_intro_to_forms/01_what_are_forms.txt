@@ -1,0 +1,18 @@
+Forms
+What are Forms?
+
+When working in most application, user information is gathered using forms.
+Forms are mostly different input fields asking unique questions.
+Data gathered from forms is usually used later in the backend of the application.
+
+In Django, these forms look and act generally the same as normal HTML forms.
+The largest difference between Django forms and HTML forms is that Django uses a model based system to handle the data.
+More information can be found in MDN’s HTML forms documentation.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+When creating forms in Django, we have a number of different options available in regards to building the form.
+In this lesson, we’ll go over some of these methods.
+Including one that allows Django to build the form for us, reducing the amount of HTML we have to write ourselves.
+Community Forums
+Still have questions? View this exercise's thread in the Codecademy Forums.
+https://discuss.codecademy.com/t/614070

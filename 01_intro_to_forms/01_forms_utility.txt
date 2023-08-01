@@ -1,0 +1,9 @@
+Why are Forms Useful?
+
+Django also makes form creation and handling form information a breeze.
+
+When surfing the internet, you’re constantly interacting with forms and you might not even realize it!
+
+Looking something up on a search engine? Signing up for a new account? Logging in? Ordering from your favorite restaurant?
+These applications all use forms one way or another.
+Typically these forms are all written in HTML, but with Django and DTL you can create forms even quicker and suited for your needs.
