@@ -6,6 +6,8 @@ class Owner(models.Model):
   phone = models.CharField(max_length=30)
   # Add your code below:
 
+  def get_absolute_url(self):
+    return "list"
 
 
 class Patient(models.Model):
