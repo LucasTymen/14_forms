@@ -1,0 +1,19 @@
+Forms
+Review
+
+Congrats! That’s everything you need to know to build a basic form using Django! Let’s go back over some of the important points from this lesson.
+
+    Remember that in any application, forms are necessary for gathering data from the user.
+    These forms can easily be created in Django by using generics created in forms.py.
+    Forms are susceptible to attacks from malicious users, so make sure to add security such as a {% csrf_token %} and form validation.
+    Data from forms is submitted to "POST", except for when using generics. When using generics, the data is submitted directly to the model and no extra work needs to be done.
+    forms.py can get rather large when working on some applications. While a large forms.py shouldn’t impact performance, it is important to try and keep forms.py as organized as possible.
+
+You can see how forms are really important to the overall experience of a Django app. Take this new knowledge and try applying it for your own ideas!
+Instructions
+
+Great job working through forms! If you want to challenge yourself further, consider:
+
+    Creating forms to update and delete Owner instances
+    Creating forms to update and delete Patient instances
+    Link up these new forms inside their respective ListViews.
