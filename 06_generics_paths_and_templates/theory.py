@@ -40,6 +40,9 @@ Inside of the content blocks will be the following code.
 This code looks very similar to a normal HTML form, including the form element with the method being "POST", a csrf_token, and an <input> element of type "submit".
 However, the entirety of the form is inside of the variable tag, using form.as_p.
 Conveniently, form.as_p tells the DTL to render all of the fields we included as form inputs neatly inside <p> elements.
+=> https://docs.djangoproject.com/en/3.1/ref/forms/api/#as-p
+
+
 Instructions
 1.
 

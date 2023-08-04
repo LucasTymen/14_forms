@@ -1,0 +1,14 @@
+<!--
+    Create a template in templates/vetoffice/ called owner_create_form.html.
+    Inside of this template, have it extend from vetoffice/base.html.
+    Add a block named content. Make sure to end the block as well.
+ -->
+
+ {% extends "vetoffice/base.html" %}
+ {% block content %}
+ <form action="" method="POST">
+   {% csrf_token %}
+   {{ form.as_p }}
+   <input type="submit" value="Submit"/>
+ </form>
+ {% endblock %}
