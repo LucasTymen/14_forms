@@ -6,6 +6,8 @@ Redirecting
 After a user submits their data, they should be redirected to another page.
 Otherwise, the user might resubmit data again and create duplicates.
 The Django convention is to create a .get_absolute_url() method.
+=> https://docs.djangoproject.com/en/3.1/ref/models/instances/#get-absolute-url
+
 
 The .get_absolute_url() method goes inside of models.py and inside of the class of the model that the form is using.
 For instance, if we had used a model called TestModel in our forms, the TestModel class would look like this in models.py:
@@ -36,5 +38,5 @@ After you’re done, try out the form!
 Remember that .get_absolute_url() takes in one parameter called self.
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
-
+=> https://www.codecademy.com/learn/paths/build-python-web-apps-with-django/tracks/forms-in-django/modules/django-forms/cheatsheet
 """
