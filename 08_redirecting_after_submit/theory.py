@@ -39,4 +39,24 @@ Remember that .get_absolute_url() takes in one parameter called self.
 Concept Review
 Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
 => https://www.codecademy.com/learn/paths/build-python-web-apps-with-django/tracks/forms-in-django/modules/django-forms/cheatsheet
+
+
+Syntax : Form Redirections
+"""
+
+
+from .models import Model_Name
+
+def renderTemplate(request):
+  if request.method == 'POST':
+    test_model = new Model_Name()
+    test_model.field = request.POST[""field_from_html""]
+    test_model.save()
+    return render(request, 'submit_success.html')
+  return render(request, 'template_name.html'
+
+"""
+
+Users can be redirected to a success page after form submission to reduce the chances of a form being submitted more than once.
+
 """
